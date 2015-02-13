@@ -1,0 +1,11 @@
+{
+  "interviews": [
+    {
+      "id": "chris_billias",
+      "name": "Chris Billias",
+      "audio_url": "audio/ChrisBillias_Highlight.mp3",
+      "midi_url": "audio/chris_billias_melody.mp3",
+      "sequence_url": "data/interviews/chris_billias.json"
+    }
+  ]
+}

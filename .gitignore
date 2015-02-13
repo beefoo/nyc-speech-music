@@ -1,1 +1,5 @@
-.sass-cache
+__pycache__/
+_dev/
+.project
+.pydevproject
+.sass-cache/

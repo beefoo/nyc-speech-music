@@ -1,0 +1,162 @@
+@import "mixins";
+@import "variables";
+
+@import "../css/vendor/normalize.css";
+@import "../css/vendor/jquery-ui.css";
+@import "../css/vendor/jquery-ui.structure.css";
+
+/* Document */
+body {
+  color: $dark;  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Global Elements */
+a {
+  color: $secondary;
+  text-decoration: none;
+  &:active,
+  &:hover {    
+    color: $secondaryLight;
+  }
+  &:link,
+  &:active,
+  &:hover,
+  &:visited {
+    outline: 0;
+  }
+}
+img {
+  border: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  h1 {
+    margin-bottom: 0;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+button {
+  display: inline-block;
+  cursor: pointer;
+  color: $white;
+  background: $secondary;
+  padding: 0.5em 1em;
+  margin-right: 1em;
+  border: none;
+  outline: none;
+  
+  &:hover {
+    background: $secondaryLight;
+  }
+  
+  &.active {
+    background: $green;
+    
+    &:hover {
+      background: lighten($green, 10%);
+    }
+  }
+}
+
+.interviews {
+  margin-top: 20px;
+  
+  &.loading {
+    &:after {
+      display: inline-block;
+      content: 'Loading...';
+      background: $highlight;
+      padding: 3px 6px;
+    }
+  }
+}
+
+.player {
+  margin-top: 20px;
+  
+  > div {
+    display: none;
+  }
+  
+  &.active > div {
+    display: block;
+  }
+  
+  .player-buttons {
+    margin-top: 20px;
+  }
+  
+  .toggle-audio {
+    &:before {
+      content: 'Turn Audio On';
+    }
+    &.active:before {
+      content: 'Turn Audio Off';
+    }
+  }
+  
+  .toggle-midi {
+    &:before {
+      content: 'Turn Melody On';
+    }
+    &.active:before {
+      content: 'Turn Melody Off';
+    }
+  }
+  
+  &.loading {
+    &:after {
+      display: inline-block;
+      content: 'Loading...';
+      background: $highlight;
+      padding: 3px 6px;
+    }
+  }
+}
+
+.ui-slider {
+  width: 100%;
+  height: 60px;
+  background: #eee;
+  position: relative;
+  
+  .ui-slider-range {
+    background: #ccc;
+  }
+  .ui-slider-handle {
+    background: $secondary;
+    display: block;
+    outline: none;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+    &:active {
+      cursor: -moz-grabbing;
+      cursor: -webkit-grabbing;
+      cursor: grabbing;
+    }
+  }
+}
+
+.player-sequence {
+  margin-top: 20px;
+  
+  .step {
+    display: inline-block;
+    color: $white;
+    background: #aaa;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+  }
+}
+

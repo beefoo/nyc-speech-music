@@ -1,0 +1,27 @@
+/* Palette */
+$white: #fff;
+$brown: #211f1b;
+$tan: #5b544d;
+$tanLight: #e8ddc2;
+$beige: #f2e9b8;
+$blue: #5f9da1;
+$blueLight: #73afb6;
+$green: #83b573;
+$greenLight: #e6f7e1;
+$greenDark: #235612;
+$red: #E5303C;
+$gray: #7d8565;
+$highlight: #fff9c1;
+
+/* Site colors */
+$dark: $brown;
+$medium: $tan;
+$light: $beige;
+$secondary: $red;
+$secondaryLight: lighten($red, 10%);
+
+/* Breakpoints */
+$breakTiny: 480px;
+$breakSmall: 768px;
+$breakMedium: 940px;
+$breakLarge: 1200px;
