@@ -7,12 +7,14 @@
 import csv
 import json
 import os
+import sys
 from midiutil.MidiFile import MIDIFile
 
 # Config
-INPUT_FILE = 'data/raw/chris_billias.csv'
-OUTPUT_JSON_FILE = 'data/interviews/chris_billias.json'
-OUTPUT_MIDI_FILE = 'data/mid/chris_billias.mid'
+FILE_NAME = sys.argv[1]
+INPUT_FILE = 'data/raw/'+FILE_NAME+'.csv'
+OUTPUT_JSON_FILE = 'data/interviews/'+FILE_NAME+'.json'
+OUTPUT_MIDI_FILE = 'data/mid/'+FILE_NAME+'.mid'
 FREQUENCIES_FILE = 'data/frequencies.json'
 PRECISION = 3
 BPM = 240

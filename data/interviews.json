@@ -6,6 +6,48 @@
       "audio_url": "audio/ChrisBillias_Highlight.mp3",
       "midi_url": "audio/chris_billias_melody.mp3",
       "sequence_url": "data/interviews/chris_billias.json"
+    },{
+      "id": "delugoff_sharon",
+      "name": "Sharon Delugoff",
+      "audio_url": "audio/Delugoff,+Sharon_Highlight.mp3",
+      "midi_url": "audio/delugoff_sharon_melody.mp3",
+      "sequence_url": "data/interviews/delugoff_sharon.json"
+    },{
+      "id": "doris_diether",
+      "name": "Doris Diether",
+      "audio_url": "audio/Doris+Diether_Highlight.mp3",
+      "midi_url": "audio/doris_diether_melody.mp3",
+      "sequence_url": "data/interviews/doris_diether.json"
+    },{
+      "id": "josephine_vasta_astarita",
+      "name": "Josephine Vasta Astarita",
+      "audio_url": "audio/Josephine+Vasta+Astarita_Highlight.mp3",
+      "midi_url": "audio/josephine_vasta_astarita_melody.mp3",
+      "sequence_url": "data/interviews/josephine_vasta_astarita.json"
+    },{
+      "id": "lee_ralph",
+      "name": "Ralph Lee",
+      "audio_url": "audio/Lee,+Ralph_Highlight.mp3",
+      "midi_url": "audio/lee_ralph_melody.mp3",
+      "sequence_url": "data/interviews/lee_ralph.json"
+    },{
+      "id": "michael_urgo",
+      "name": "Michael Urgo",
+      "audio_url": "audio/Michael+Urgo_Highlight.mp3",
+      "midi_url": "audio/michael_urgo_melody.mp3",
+      "sequence_url": "data/interviews/michael_urgo.json"
+    },{
+      "id": "pianoforte_rose",
+      "name": "Rose Pianoforte",
+      "audio_url": "audio/Pianoforte,+Rose_Highlight.mp3",
+      "midi_url": "audio/pianoforte_rose_melody.mp3",
+      "sequence_url": "data/interviews/pianoforte_rose.json"
+    },{
+      "id": "seqouia_tree",
+      "name": "Tree Sequouia",
+      "audio_url": "audio/Seqouia,+Tree_Highlight.mp3",
+      "midi_url": "audio/seqouia_tree_melody.mp3",
+      "sequence_url": "data/interviews/seqouia_tree.json"
     }
   ]
 }
